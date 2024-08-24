@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(2, 2, 75);
+    color:white;
+    justify-content: right;
+    align-items: center;
+}
+.menu > button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu > button > a{
+    text-decoration: none;
+    color: black;
+}
+.taktak{
+    text-align: center;
+    margin-top: 20px;
+}
+.wiadomosci{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(2, 2, 75);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.messege{
+    background: url(../zdjecia/steam_ramka.png);
+    background-position: center;
+    margin-left: 10px;
+    height: 100%;
+    width: 300px;
+    flex-direction: row;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    overflow-y: scroll;
+    color: white;
+}
+.ocen{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(2, 2, 75);
+}
+#table-ocen{
+    margin: 5px;
+    background-color: gray;
+    color: white;
+}
+#table-ocen > table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+#table-ocen > table{
+    width: 100%;
+}
+
+#table-ocen > table > tr{
+    display: flex;
+
+}
+#table-ocen > table > tr > td{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px;
+}
+.plan{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(2, 2, 75);
+}
+#table-plan{
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#table-plan > table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+#table-plan > table{
+    width: 100%;
+}
+.uwagi{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(2, 2, 75);
+}
+.stopka{
+    height: 150px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#fb, #yt, #git{
+    width: 250px;
+    height: 150px;
+    margin-inline: 10px;
+    text-align: center;
+}
+#fb:hover{
+    background-color: #3b5998;
+    color: white;
+}
+#yt:hover{
+    background-color: red;
+    color: white;
+}
+#git:hover{
+    background-color: #0d1117;
+    color: white;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styl/styl.css">
+    <link rel="stylesheet" href="../zdjecia/fontello-d8586a9b/css/fontello.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <p><h1>DZIENNIK INTERNETOWY</h1></p>
+        </div>
+        <div class="blok">
+            <form method="POST" action="../skrypt/register.php">
+                <table>
+                    <tr>
+                        <td>Nazwa:</td>
+                        <td><input type="text" name="nazwa" id="nazwa"></td>
+                    </tr>
+                    <tr>
+                        <td>Login:</td>
+                        <td><input type="text" name="log" id="log"></td>
+                    </tr>
+                    <tr>
+                        <td>Hasło:</td>
+                        <td><input type="password" name="pass" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select name="select" id="select">
+                                <option value="uczeń">Uczeń</option>
+                                <option value="nauczyciel">Nauczyciel</option>
+                            </select>
+                            <button type="submit" name="reg">REJESTRUJ</button>
+                            <button><a href="../html/index.html">POWRÓT</a></button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="stopka">
+            <div id="fb">
+                <i class="icon-facebook-rect"></i>
+            </div>
+            <div id="yt">
+                <i class="icon-youtube"></i>
+            </div>
+            <div id="git">
+                <i class="icon-github"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+.icon-temperature:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-w3c:before { content: '\e802'; } /* '' */
+.icon-github:before { content: '\e803'; } /* '' */
+.icon-compass:before { content: '\e804'; } /* '' */
+.icon-bold:before { content: '\e805'; } /* '' */
+.icon-celcius:before { content: '\e806'; } /* '' */
+.icon-sun-inv:before { content: '\e807'; } /* '' */
+.icon-moon-inv:before { content: '\e808'; } /* '' */
+.icon-italic:before { content: '\e809'; } /* '' */
+.icon-align-right:before { content: '\e80a'; } /* '' */
+.icon-align-center:before { content: '\e80b'; } /* '' */
+.icon-align-left:before { content: '\e80c'; } /* '' */
+.icon-align-justify:before { content: '\e80d'; } /* '' */
+.icon-battery-3:before { content: '\f241'; } /* '' */
+.icon-facebook-rect:before { content: '\f301'; } /* '' */
+.icon-youtube:before { content: '\f313'; } /* '' */
+.icon-instagram:before { content: '\f31e'; } /* '' */
